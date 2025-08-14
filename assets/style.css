@@ -131,22 +131,59 @@ img {
   overflow: hidden;
 }
 
-.header{
-    margin: 2rem 10rem 2rem 10rem;
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    z-index: var(--z-fixed);
+    transition: box-shadow 4s;
 }
 
 .nav {
+    position: relative;
+    height: var(--header-height);
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px 0 100px;
 }
 
 .nav__logo {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    columns-gap: .25rem;
 }
 
+.nav__logo img {
+    width: 1.5rem;
+}
+
+.nav__logo span {
+    color: var(--black-color);
+    font-weight: var(--font-semi-bold);
+}
 
 .nav__menu {
-    margin-left: 100px;
+    display: inline-flex;
+}
+
+.nav__list {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-weight: var(--font-semi-bold);
+    font-family: var(--second-font);
+}
+
+.nav__link {
+    color: var(--black-color);
+}
+
+.nav--toggle,
+.nav__close {
+    display: inline-flex;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
