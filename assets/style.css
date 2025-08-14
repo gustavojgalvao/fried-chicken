@@ -130,3 +130,23 @@ img {
 .main {
   overflow: hidden;
 }
+
+.header{
+    margin: 2rem 10rem 2rem 10rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav__logo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav__menu {
+    margin-left: 100px;
+}
