@@ -131,6 +131,8 @@ img {
   overflow: hidden;
 }
 
+/* ================================================ */
+
 .header {
     position: fixed;
     width: 100%;
@@ -258,12 +260,12 @@ img {
 .home__dam-2 {
     width: 80px;
     top: -3.5rem;
-    right: -2.5rem;
+    left: -2.5rem;
 }
 
 .home__images {
     position: relative;
-    justify-content: center;
+    justify-self: center;
 }
 
 .home__img {
@@ -279,14 +281,14 @@ img {
 
 .home__dam-4 {
     width: 60px;
-    right: .75rem;
+    right: 0.75rem;
     bottom: -1.25rem;
 }
 
 .home__dam-5 {
     width: 80px;
     top: 5rem;
-    left: 2.5rem;
+    left: -2.5rem;
 }
 
 .button {
