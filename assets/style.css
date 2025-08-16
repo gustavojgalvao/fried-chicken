@@ -215,6 +215,10 @@ img {
     right: 0;
 }
 
+.shadow-header {
+  box-shadow: 0 4px 16px hsla(0, 0%, 0%, .1);
+}
+
 
 .home {
     background-color: var(--first-color);
