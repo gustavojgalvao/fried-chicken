@@ -214,6 +214,9 @@ img {
   box-shadow: 0 4px 16px hsla(0, 0%, 0%, .1);
 }
 
+.active-link {
+  color: var(--white-color);
+}
 
 .home {
     background-color: var(--first-color);
@@ -810,7 +813,7 @@ img {
 .scrollup {
   position: fixed;
   right: 1rem;
-  bottom: 3rem;
+  bottom: -50%;
   background-color: var(--white-color);
   box-shadow: 0 4px 16px hsl(0, 0%, 0%, .4);
   color: var(--black-color);
@@ -825,4 +828,8 @@ img {
 .scrollup:hover {
   box-shadow: 0 4px 16px hsl(0, 0%, 0%, 0.6);
   transform: translateY(-.5rem);
+}
+
+.show-scroll {
+  bottom: 3rem;
 }
