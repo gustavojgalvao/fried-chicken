@@ -792,3 +792,17 @@ img {
   text-align: center;
   font-size: var(--small-font-size);
 }
+
+::-webkit-scrollbar {
+  width: .6rem;
+  background-color:  hsl(30, 90%, 40%);;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(30, 90%, 35%);
+  border-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:  hsl(30, 90%, 30%);;
+}
